@@ -1,6 +1,6 @@
 // import { useLocation } from "react-router-dom";
 
-export default function NEWIN(){
+export default function Newin(){
    
     // let location =useLocation();
     // const[dress,setProduct]=useState(location.state)
@@ -9,7 +9,8 @@ export default function NEWIN(){
    
     return(
         <>
-           <h1>New In</h1> 
+           <h1>New In Welcome</h1>
+           <div className="newdiv"></div> 
         </>
     )
 }

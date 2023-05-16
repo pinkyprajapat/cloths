@@ -87,13 +87,6 @@ export var sareeslide=[
     {id:4,Image:require('../img/sarees/saree4.jpg')},
 ]
 
-export var luxelehngas=[
-    {id:1,Image:require('../img/lehngas/lehnga4.jpg')},
-    {id:2,Image:require('../img/lehngas/lehnga2.jpg')},
-    {id:3,Image:require('../img/lehngas/lehnga3.jpg')},
-    {id:4,Image:require('../img/lehngas/lehnga1.jpg')},
-]
-
 
 // export var fonttxt=[
 //     {name:'dresses'},
@@ -141,3 +134,28 @@ export var footerimg=require('../img/footer/content.png')
 export var footerplaystr=require('../img/footer/downloadplaystr.png')
 export var footerappstr=require('../img/footer/appstore.png')
 
+
+// --------------------------------------------Indya-----------------------------------------------------------------
+
+export var Indiyadress=[
+    {id:1,name:'Gold Textured Crop Top',SUK:'SCT00051Z',price:'₹ 1600',img:require('../img/indya/Indress1/dress1.jpg'),img2:require('../img/indya/Indress1/dress1A.jpg'),img3:require('../img/indya/Indress1/dress1B.jpg'),img4:require('../img/indya/Indress1/dress1C.jpg'),img5:require('../img/indya/Indress1/dress1D.jpg'),img6:require('../img/indya/Indress1/dress1E.jpg')}
+]
+
+
+// --------------------------------------------LUXE-----------------------------------------------------------------
+
+export var luxelehngas=[
+    {id:1,Image:require('../img/lehngas/lehnga4.jpg')},
+    {id:2,Image:require('../img/lehngas/lehnga2.jpg')},
+    {id:3,Image:require('../img/lehngas/lehnga3.jpg')},
+    {id:4,Image:require('../img/lehngas/lehnga1.jpg')},
+]
+
+export var luxekurti=[
+    {id:1,name:'SOHA ALI KHAN',img:require('../img/Luxe/Soha.webp')},
+    {id:2,name:'SHRADHA KAPOOR',img:require('../img/Luxe/Shradha.jpg')},
+    {id:3,name:'DIANA PENTY',img:require('../img/Luxe/Diana.jpg')},
+    {id:4,name:'TANISHAA MUKERJI',img:require('../img/Luxe/mukharji.jpg')},
+    {id:5,name:'SUKRITI KAKAR',img:require('../img/Luxe/Sukriti.webp')},
+    {id:6,name:'PRAKRITI KAKAR',img:require('../img/Luxe/Prakriti.jpg')},
+]

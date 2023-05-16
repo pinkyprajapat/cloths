@@ -6,7 +6,7 @@ export default function Happy(){
     const[content,setcontent]=useState(loc.state)
     return(
         <>
-        <h1>Happyy!!!!</h1>
+        <h1>Your's trusted online shop</h1>
         <div>
             <img src={content}/>
         </div>

@@ -1,30 +1,34 @@
 
-// used for faballey banner onclick
+// used for Indiya banner onclick
 
 import { useLocation } from "react-router-dom";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { Button, Container, Dropdown } from "react-bootstrap";
-import { dressInfo, vartops } from "../data/data";
+import { Indiyadress, dressInfo, vartops } from "../data/data";
 import { Card, Row, Col, nav, d, ListGroup } from "react-bootstrap";
 // import { Link, useNavigate } from "react-router-dom";
 
 
 
 // import { Col, Row, Dropdown, Container } from "react-bootstrap";
-export default function Banner() {
+export default function IndyaBanner() {
+
+    let nav=useNavigate();
+
     const loc = useLocation();
     const [data, setdata] = useState(loc.state.dataa)
     return (
-    <div style={{width:1508}}>
-        <h3>banner</h3>
-        <div className="Banner-div">
-            <div className="Banner-leftdiv">
-                <div className="left-div-box">
-                    <h4>SALE</h4>
-                    <div className="ban-leftdiv-line"></div>
-                    <div><br /></div>
+        <div style={{ width: 1508 }}>
+            <h3>Indya banner</h3>
+            <div className="Banner-div">
+                <div className="Banner-leftdiv">
+                    <div className="left-div-box">
+                        <h4>SAMANT CHAUHAN X INDYA</h4>
+                        <div className="ban-leftdiv-line"></div>
+                        <div><br /></div>
 
-                    <Dropdown className="d-inline mx-2" autoClose={false}>
+                        {/* <Dropdown className="d-inline mx-2" autoClose={false}>
                         <Dropdown.Toggle id="dropdown-autoclose-false">
                             Clothing
                         </Dropdown.Toggle>
@@ -35,8 +39,8 @@ export default function Banner() {
                             <Dropdown.Item href="#">Dresses</Dropdown.Item>
                             <Dropdown.Item href="#">Bottoms</Dropdown.Item>
                         </Dropdown.Menu>
-                    </Dropdown>
-                    {/* <Row>
+                    </Dropdown> */}
+                        {/* <Row>
                         <Col>
                             <Dropdown>
                                 <Dropdown.Toggle variant="--bs-light-rgb" id="dropdown-basic">
@@ -51,54 +55,54 @@ export default function Banner() {
                             </Dropdown>                            
                         </Col>
                     </Row> */}
-                </div>
-            </div>
-            <div className="Banner-rightdiv">
-                <h6>Home | sale</h6>
-                <div className="manyform-div">
-                    <div className="manyform-div1">
-                        {
-                            dressInfo.map(function (di) {
-                                return (
-                                    <div className="manyform-div-div">
-                                        <div className="manyform-div-div-div">
-                                            <form action="/action_page.php">
-
-                                                <select id="Categories" name="Categories" className="Banner-rightdiv-select">
-                                                    <option value={di.name} selected disabled hidden className="Banner-rightdiv-select-opt">{di.name}</option>
-                                                    <option value={di.opt1}>{di.opt1}</option>
-                                                    <option value={di.opt2}>{di.opt2}</option>
-                                                    <option value={di.opt3}>{di.opt3}</option>
-                                                    <option value={di.opt4}>{di.opt4}</option>
-                                                </select>
-                                            </form>
-                                        </div>
-                                    </div>
-                                )
-                            })
-                        }
                     </div>
-                    <div className="banner-Second-rightdiv">
-                        <div className="banner-Second-rightdiv1">
-                            <div className="banner-Second-rightdiv1A">
-                                <p style={{ position: 'relative', top: 3 }}>SALE</p>
-                            </div>
-                            <div className="banner-Second-rightdiv1B">
-                                <p style={{ position: 'relative', left: 20, top: 3 }}>1088 SYLE FOUND</p>
-                            </div>
-                            <div className="banner-Second-rightdiv1C">
+                </div>
+                <div className="Banner-rightdiv">
+                    <h6>Home | Indya Clothing | Designer Collabs | Samant Chauhan X Indya</h6>
+                    <div className="manyform-div">
+                        <div className="manyform-div1">
+                            {
+                                dressInfo.map(function (di) {
+                                    return (
+                                        <div className="manyform-div-div">
+                                            <div className="manyform-div-div-div">
+                                                <form action="/action_page.php">
+
+                                                    <select id="Categories" name="Categories" className="Banner-rightdiv-select">
+                                                        <option value={di.name} selected disabled hidden className="Banner-rightdiv-select-opt">{di.name}</option>
+                                                        <option value={di.opt1}>{di.opt1}</option>
+                                                        <option value={di.opt2}>{di.opt2}</option>
+                                                        <option value={di.opt3}>{di.opt3}</option>
+                                                        <option value={di.opt4}>{di.opt4}</option>
+                                                    </select>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    )
+                                })
+                            }
+                        </div>
+                        <div className="banner-Second-rightdiv">
+                            <div className="banner-Second-rightdiv1">
+                                <div className="banner-Second-rightdiv1Ain">
+                                    <p style={{ position: 'relative', top: 3 }}>SSAMANT CHAUHAN X INDYA</p>
+                                </div>
+                                <div className="banner-Second-rightdiv1Bin">
+                                    <p style={{ position: 'relative', left: 20, top: 3 }}>28 SYLE FOUND</p>
+                                </div>
+                                {/* <div className="banner-Second-rightdiv1C">
                                 <p style={{ position: 'relative', left: 20, top: 3 }}>VIEW 201</p>
+                            </div> */}
                             </div>
                         </div>
-                    </div>
-                    <Container>
+                        <Container>
                         <Row>
                             {
-                                vartops.map(function (dv) {
+                                Indiyadress.map(function (dv) {
                                     return (
                                         <Col>
                                             <div className="banner-Third-rightdiv">
-                                                <Card style={{ width: '15rem', marginTop: '5px' }}  >
+                                                <Card style={{ width: '15rem', marginTop: '5px' }}  onClick={() => nav('/details', { state: { product: dv } })}  >
                                                     <div className="banner-Third-rightdiv-Img" style={{ height: 300 }}>
                                                         <Card.Img variant="top" src={dv.img} alt="image" style={{ height: '100%' }} />
                                                     </div>
@@ -135,10 +139,10 @@ export default function Banner() {
                             }
                         </Row>
                     </Container>
+                    </div>
                 </div>
-            </div>
-        </div >
-    </div>
+            </div >
+        </div>
     )
 }
 

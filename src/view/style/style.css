@@ -1,14 +1,14 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
-.menu09{
+.menu09 {
     display: flex;
 }
 
 /* -----------------------------------------------------------first menu head css----------------------------------------------------------------- */
-.top1{
+.top1 {
     /* background-color: rgb(30, 255, 0); */
     width: 100%;
     height: 35px;
@@ -17,193 +17,242 @@
     border-top: 1px solid grey;
     /* position: fixed;z-index: 100; */
 }
-.back{
+
+.back {
     /* background-color: blueviolet; */
     width: 60%;
     height: 35px;
-   
-    
+
+
 }
-.bck{
+
+.bck {
     /* background-color: aqua; */
     width: 30%;
     height: 100%;
-    position: relative;float: right;display: flex;
-    
+    position: relative;
+    float: right;
+    display: flex;
+
 }
-.images{
+
+.images {
     background-color: rgb(7, 35, 35);
     width: 33.3%;
     height: 100%;
     position: relative;
 }
-.imagess{
+
+.imagess {
     /* background-color: rgb(244, 242, 242); */
     width: 33.3%;
     height: 100%;
     position: relative;
 }
-.imagesss{
+
+.imagesss {
     /* background-color: rgb(246, 245, 248); */
     width: 33.3%;
     position: relative;
     border-left: 3px solid grey;
 }
-.top2{
+
+.top2 {
     /* background-color: aqua; */
     width: 40%;
     height: 100%;
-    position: relative;    
+    position: relative;
 }
-.top22{
+
+.top22 {
     /* background-color: cadetblue; */
     float: right;
     width: 50%;
     height: 90%;
-    position: relative;top: 3px;
+    position: relative;
+    top: 3px;
     display: flex;
-    
+
 }
 
-.content{
+.content {
     /* background-color: chartreuse; */
     /* width:25%; */
     height: 25px;
-    border-right: 2px solid pink;position: relative;padding-right: 4px;float: right;
-    
+    border-right: 2px solid pink;
+    position: relative;
+    padding-right: 4px;
+    float: right;
+
 }
 
 /* -----------------------------------------------------------second menu list head css----------------------------------------------------------------- */
-.nexttop{
+.nexttop {
     /* background-color: aquamarine; */
     width: 100%;
     height: 80px;
     display: flex;
 }
-.next1{
+
+.next1 {
     /* background-color: blue; */
-    width: 20%;height: 100%;
+    width: 20%;
+    height: 100%;
 }
-.next2{
+
+.next2 {
     /* background-color: rgb(255, 81, 0); */
-    width: 70%;height: 100%;
+    width: 70%;
+    height: 100%;
     display: flex;
 }
-.next3{
+
+.next3 {
     /* background-color: rgb(0, 255, 136); */
-    width: 10%;height: 100%;
+    width: 10%;
+    height: 100%;
 }
-.logo{
+
+.logo {
     /* background-color: rgb(242, 247, 247); */
     width: 60%;
     height: 100%;
-    position: relative;left: 5%;
+    position: relative;
+    left: 5%;
 }
-.barslist{
+
+.barslist {
     margin: auto;
 }
-.Link{
+
+.Link {
     padding: 20px;
     /* background-color: lightpink; */
     text-decoration: none;
     font-size: 20px;
     color: black;
-    
+
 }
+
 /* for all link simple */
-.link2{
+.link2 {
     text-decoration: none;
     color: black;
 }
 
 /* ------------------------------------------------------------three pink div in head css----------------------------------------------------------------- */
-.divbk{
+.divbk {
     /* background-color: aqua; */
     width: 100%;
     height: 40px;
     display: flex;
 }
-.div1{
+
+.div1 {
     background-color: rgb(248, 216, 221);
     width: 33.3%;
     height: 100%;
 }
-.div2{
+
+.div2 {
     background-color: rgb(245, 151, 148);
     width: 33.3%;
     height: 100%;
 }
-.div3{
+
+.div3 {
     background-color: rgb(249, 217, 222);
     width: 33.4%;
     height: 100%;
 }
 
 /* ------------------------------------------------------------Awesome Slider----------------------------------------------------------------- */
-.ctghead{
+.ctghead {
     /* background-color: blueviolet; */
     width: 100%;
     height: 60px;
     margin-top: 3%;
 }
-.slideprp{
+
+.slideprp {
     height: 600px;
     margin-top: 5px;
 }
-.banner-div{
-    width: 100%;height: 600px;
+
+.banner-div {
+    width: 100%;
+    height: 600px;
 }
-.banner-div-div{
+
+.banner-div-div {
     /* width: 27%;
     height: 10%; */
     /* color: black; */
     /* background-color: aqua; */
-    position: relative;left: 18%;
+    position: relative;
+    left: 18%;
 }
 
-.team1{
+.team1 {
     font-size: 25px;
-    text-align: center;position: relative;top: 25%;
+    text-align: center;
+    position: relative;
+    top: 25%;
 }
-.imagesdiv{
+
+.imagesdiv {
     /* background-color: rgb(7, 63, 10); */
     width: 100%;
     height: 500px;
     display: flex;
 }
-.divs1{
+
+.divs1 {
     /* background-color: aquamarine; */
     width: 33.3%;
-    height: 100%;position: relative;
+    height: 100%;
+    position: relative;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     cursor: pointer;
 }
-.divs2{
+
+.divs2 {
     /* background-color: chocolate; */
     position: relative;
     width: 90%;
     height: 90%;
-    top: 5%;left: 5%;
+    top: 5%;
+    left: 5%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
-.types1{
+.types1 {
     /* background-color: blueviolet; */
     width: 100%;
-    height: 150px;position: relative;top: 60%;
-}
-.styletxt{
-    font-size: 80px;color:rgb(3, 11, 91);text-align: center;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.styletxxt{
-    font-size: 30px;color: rgb(15, 5, 5);text-align: center;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,;
+    height: 150px;
+    position: relative;
+    top: 60%;
 }
 
+.styletxt {
+    font-size: 80px;
+    color: rgb(3, 11, 91);
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.styletxxt {
+    font-size: 30px;
+    color: rgb(15, 5, 5);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, ;
+}
 
 
 
-.ctgheadd{
+
+.ctgheadd {
     /* background-color: blueviolet; */
     width: 100%;
     height: 60px;
@@ -211,71 +260,83 @@
     text-align: center;
     font-size: 25px;
 }
-.imagesdivv{
-    background-color: rgb(7, 63, 10);
-    width: 96%;position: relative;left: 2%;
-    height: 450px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    
-}
 
-.ctgheaddd{
-    /* background-color: blueviolet; */
-    width: 100%;
-    height: 60px;
-    margin-top: 3%;
-    text-align: center;
-    font-size: 25px;
-}
-.imagesdivvv{
+.imagesdivv {
     background-color: rgb(7, 63, 10);
-    width: 96%;position: relative;left: 2%;
-    height: 450px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    
-}
-.imagessld{
     width: 96%;
-    height:400px;
+    position: relative;
+    left: 2%;
+    height: 450px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.ctgheaddd {
+    /* background-color: blueviolet; */
+    width: 100%;
+    height: 60px;
+    margin-top: 3%;
+    text-align: center;
+    font-size: 25px;
+}
+
+.imagesdivvv {
+    background-color: rgb(7, 63, 10);
+    width: 96%;
+    position: relative;
+    left: 2%;
+    height: 450px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.imagessld {
+    width: 96%;
+    height: 400px;
     position: relative;
     /* margin-top: 50px; */
     /* margin-bottom: 30px; */
     /* background-color: rgb(161, 105, 230); */
-     /* padding: 30px; */
+    /* padding: 30px; */
     margin: auto;
-   margin-top: 5%;
-   display: flex;
+    margin-top: 5%;
+    display: flex;
 }
-.Category-imagessld1{
+
+.Category-imagessld1 {
     width: 96%;
     height: 1200px;
     position: relative;
     /* background-color: rgb(161, 105, 230);    */
 }
-.imagessld1{
+
+.imagessld1 {
     width: 96%;
-    height:600px;
+    height: 600px;
     position: relative;
     /* margin-top: 50px; */
     /* margin-bottom: 30px; */
     /* background-color: rgb(161, 105, 230); */
-     /* padding: 30px; */
+    /* padding: 30px; */
     margin: auto;
-   margin-top: 5%;
+    margin-top: 5%;
 }
-.imgflexbox{
+
+.imgflexbox {
     width: 16.9%;
     height: 100%;
     /* background-color: bisque; */
 }
-.imgflexbox1{
+
+.imgflexbox1 {
     width: 32%;
     height: 100%;
     /* border: 2px solid rgba(223, 50, 50, 0.642);
     background-color: bisque; */
     float: left;
 }
-.imgbox{
+
+.imgbox {
     width: 95%;
     height: 95%;
     position: relative;
@@ -284,7 +345,8 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     /* background-color: cadetblue; */
 }
-.topsname{
+
+.topsname {
     width: 100%;
     height: 70px;
     /* background-color: aqua; */
@@ -292,22 +354,25 @@
     font-size: 15px;
     /* text-align: center; */
 }
-.p1{
+
+.p1 {
     color: rgb(42, 42, 89);
 }
-.p2{
+
+.p2 {
     text-align: center;
     color: darksalmon;
-    
+
 }
 
 /* --------------------------------------------------------------Details.js css----------------------------------------------------------------- */
-.inditop{
+.inditop {
     /* background-color: aqua; */
     width: 100%;
-    height: 30px ;
+    height: 30px;
 }
-.details{
+
+.details {
     width: 100%;
     height: 1800px;
     margin-top: 2%;
@@ -315,13 +380,14 @@
     display: inline-flex;
 }
 
-.details-image{
+.details-image {
     width: 63%;
     height: 100%;
     /* background-color: rgb(255, 0, 204);  */
     position: relative;
 }
-.details-image-inner{
+
+.details-image-inner {
     width: 96%;
     height: 97%;
     /* background-color: rgb(0, 255, 64); */
@@ -331,36 +397,45 @@
     /* top: 0%; */
     /* box-shadow: 5px ; */
 }
-.details-image-inner1{
-    width:50%;
-    height:33%;
+
+.details-image-inner1 {
+    width: 50%;
+    height: 33%;
     float: left;
     /* background-color: burlywood; */
     box-shadow: inset;
 }
-.details-info{
+
+.details-info {
     width: 35%;
     height: 100%;
     /* background-color: rgb(234, 255, 0);  */
 }
-.details-rate{
+
+.details-rate {
     margin-top: 5px;
 }
-.line{
-    width: 100%;height: 1px;background-color: black;
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: black;
 }
-.Taxes{
-    width:100%;
+
+.Taxes {
+    width: 100%;
     height: 33px;
     /* background-color: blueviolet; */
     /* color: rgb(31, 208, 0); */
     margin-top: 0%;
 }
-.suk{
+
+.suk {
     height: 80px;
     /* background-color: aqua; */
 }
-.Bag{
+
+.Bag {
     width: 55%;
     height: 40px;
     text-align: center;
@@ -372,207 +447,301 @@
 
 
 /* --------------------------------------------------------------Footer css----------------------------------------------------------------- */
-.footer{
+.footer {
     width: 100%;
-    height: 500px;background-color: rgb(248, 216, 221);position: relative;top: 60px;
+    height: 500px;
+    background-color: rgb(248, 216, 221);
+    position: relative;
+    top: 60px;
 }
-.footer h3{
-    text-align: center;color:white
+
+.footer h3 {
+    text-align: center;
+    color: white
 }
+
 /* .Header{
     width: 100%;
     height: 100px;background-color: black;
 } */
-.footer-div{
+.footer-div {
     /* background-color: aqua; */
-    width: 95%;height: 80%;position: relative;left: 2.5%;
+    width: 95%;
+    height: 80%;
+    position: relative;
+    left: 2.5%;
 }
-.footer-line{
-    width: 100%;height: 1px;
-    background-color:grey;
+
+.footer-line {
+    width: 100%;
+    height: 1px;
+    background-color: grey;
 }
-.footer-img{
+
+.footer-img {
     /* background-color: blueviolet; */
     width: 100%;
-    height: 170px;position: relative;top: 10px;display: flex;
+    height: 170px;
+    position: relative;
+    top: 10px;
+    display: flex;
 }
-.footimg{
-    position: relative;left: 15px;top: 16px;
+
+.footimg {
+    position: relative;
+    left: 15px;
+    top: 16px;
     /* background-color: burlywood; */
-    width: 65%;height: 80%;
+    width: 65%;
+    height: 80%;
 }
-.footdownld{
+
+.footdownld {
     /* background-color: yellowgreen; */
-    position: relative;width: 33%;height: 80%;top: 16px;left: 10px;
+    position: relative;
+    width: 33%;
+    height: 80%;
+    top: 16px;
+    left: 10px;
 }
-.divbck1{
+
+.divbck1 {
     /* background-color: whitesmoke; */
-    position: relative;width: 80%;height: 40%;top: 15%;left: 8%;display: flex;
+    position: relative;
+    width: 80%;
+    height: 40%;
+    top: 15%;
+    left: 8%;
+    display: flex;
 }
-.divlft{
+
+.divlft {
     /* background-color: wheat; */
-    width: 50%;height: 100%;
+    width: 50%;
+    height: 100%;
 }
-.divrght{
+
+.divrght {
     /* background-color: rgb(233, 176, 71); */
-    width: 50%;height: 100%;
+    width: 50%;
+    height: 100%;
 }
-.img1play{
+
+.img1play {
     align-items: center;
 }
 
 
-/* --------------------------------------------------------------Footer css----------------------------------------------------------------- */
-.indy-div{
+/* ---------------------------------------------Indys css----------------------------------------------------------------- */
+.indy-div {
     width: 100%;
     height: 85px;
     background-color: aqua;
     margin-top: 3%;
 }
-.indy-div1{
+
+.indy-div1 {
     width: 98%;
     height: 74px;
     /* background-color: rgb(176, 222, 135); */
-    position: relative;top: 6px;left: 1%;
+    position: relative;
+    top: 6px;
+    left: 1%;
     border-radius: 10px;
     border: 2px solid rgba(223, 50, 50, 0.642);
     display: inline-flex;
 }
-.indy-div1A{
+
+.indy-div1A {
     width: 70%;
     height: 100%;
     /* background-color: chocolate; */
 }
-.indy-div1B{
+
+.indy-div1B {
     width: 30%;
     height: 100%;
     /* background-color: rgb(51, 30, 210); */
 }
-.indy-p1{
+
+.indy-p1 {
     font-size: 35px;
     padding-top: 12px;
     padding-left: 60px;
     font-family: 'Times New Roman', Times, serif;
 }
-.indy-div1B1{
+
+.indy-div1B1 {
     width: 38%;
     height: 53%;
     background-color: black;
     color: white;
     text-align: center;
     padding-top: 7px;
-    position: relative;left: 30%;top: 23%;
+    position: relative;
+    left: 30%;
+    top: 23%;
 }
 
-.formdata{
-    width:500;
+.banner-Second-rightdiv1Bin {
+    width: 170px;
+    height: 100%;
+    /* background-color: aquamarine; */
+    /* border-right: 1px solid rgb(146, 144, 144); */
+}
+
+.banner-Second-rightdiv1Ain {
+    width:27%;
+    height: 100%;
+    /* background-color: aquamarine; */
+    border-right: 1px solid rgb(146, 144, 144);
+}
+
+.formdata {
+    width: 500;
     border: 2px solid rgba(33, 29, 29, 0.642);
 }
+
+/* ---------------------------------------------Banner for all js file of banner css----------------------------------------------------------------- */
+
 /*when we click on banner the pages opens */
-.Banner-div{
+.Banner-div {
     width: 100%;
     height: 1600px;
     /* background-color: yellowgreen; */
     display: flex;
 }
-.Banner-leftdiv{
+
+.Banner-leftdiv {
     /* background-color: aqua; */
-    width: 20%;height: 100%;
+    width: 20%;
+    height: 100%;
 }
-.Banner-rightdiv{
+
+.Banner-rightdiv {
     /* background-color: blueviolet; */
     width: 80%;
     height: 100%;
 }
-.manyform-div{
+
+.manyform-div {
     /* background-color: rgb(54, 162, 48); */
     width: 95%;
     height: 97%;
-    position: relative;left: 2.5%;
+    position: relative;
+    left: 2.5%;
 }
-.left-div-box{
+
+.left-div-box {
     /* background-color: rgb(61, 85, 85); */
-    width: 80%;height: 20%;position: relative;left: 10%;top: 5%;
+    width: 80%;
+    height: 20%;
+    position: relative;
+    left: 10%;
+    top: 5%;
 }
-.ban-leftdiv-line{
+
+.ban-leftdiv-line {
     /* background-color: black; */
-    width: 100%;height: 1px;
+    width: 100%;
+    height: 1px;
 }
-.manyform-div1{
+
+.manyform-div1 {
     /* background-color: rgb(162, 112, 48); */
     width: 100%;
     height: 10%;
     /* position: relative;left: 2.5%; */
 }
 
-.manyform-div-div{
+.manyform-div-div {
     /* background-color:rgb(126, 34, 49); */
     width: 20%;
-    height: 50%;float:left;
+    height: 50%;
+    float: left;
     /* border: 2px solid rgb(45, 42, 42); */
 }
-.manyform-div-div-div{
+
+.manyform-div-div-div {
     /* background-color: aqua; */
     position: relative;
     width: 90%;
-    height:60%;
-    left: 5%;top: 25%;
+    height: 60%;
+    left: 5%;
+    top: 25%;
 }
-.Banner-rightdiv-select{
+
+.Banner-rightdiv-select {
     width: 100%;
     height: 43px;
 }
-.Banner-rightdiv-select-opt{
+
+.Banner-rightdiv-select-opt {
     color: rgb(70, 70, 70);
 }
-.banner-Second-rightdiv{
+
+.banner-Second-rightdiv {
     width: 100%;
     height: 2.5%;
     border-top: 1px solid rgb(146, 144, 144);
     border-bottom: 1px solid rgb(146, 144, 144);
     /* background-color: chartreuse; */
 }
-.banner-Second-rightdiv1{
-    width:75%;
+
+.banner-Second-rightdiv1 {
+    width: 75%;
     height: 72%;
     /* background-color: darkgoldenrod; */
-    position: relative;top: 14%;
+    position: relative;
+    top: 14%;
     display: inline-flex;
 }
-.banner-Second-rightdiv1A{
-    width: 60px;
+
+.banner-Second-rightdiv1A {
+    width:60px;
     height: 100%;
     /* background-color: aquamarine; */
     border-right: 1px solid rgb(146, 144, 144);
 }
-.banner-Second-rightdiv1B{
+
+.banner-Second-rightdiv1B {
     width: 170px;
     height: 100%;
     /* background-color: aquamarine; */
     border-right: 1px solid rgb(146, 144, 144);
 }
-.banner-Second-rightdiv1C{
+
+.banner-Second-rightdiv1C {
     width: 110px;
     height: 100%;
     /* background-color: aquamarine; */
     /* border-right: 2px solid rgb(94, 93, 93); */
 }
-.banner-Third-rightdiv{
+
+.banner-Third-rightdiv {
     width: 250px;
     height: 510px;
     /* background-color: aqua; */
     /* border-right: 2px solid rgb(94, 93, 93); */
 }
-.banner-Third-rightdiv-Img{
+
+.banner-Third-rightdiv-Img {
     height: 300;
     /* background-color: brown; */
 }
-.Bag2{width: 100%;
+
+.Bag2 {
+    width: 100%;
     height: 40px;
     text-align: center;
     padding-top: 12px;
-    /* border: 2px solid grey; */
+    border: none;
     color: white;
     background-color: rgb(245, 151, 148);
 }
 
+.newdiv {
+    background-color: yellow;
+    width: 100%;
+    height: 70%;
+}

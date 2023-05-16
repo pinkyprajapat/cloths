@@ -62,6 +62,8 @@ import Register from './view/screen/Register'
 import { useState } from 'react'
 
 import { Button, Container } from 'react-bootstrap'
+import LuxeBanner from './view/screen/LuxeBanner'
+import IndyaBanner from './view/screen/IndyaBanner'
 
 
 
@@ -81,7 +83,7 @@ function App() {
 
     return (<>
         <BrowserRouter>
-            <div>
+            <div style={{width:1508}}>
                 <div className='menu09'>
                     <Link to="/" className='Link'>Home</Link>
                     {/* <Link to="/About" className='Link'>About</Link>
@@ -282,7 +284,8 @@ function App() {
                 <Route path="/Thirddiv" element={<Thirddiv />} />
                 <Route path="/Happy" element={<Happy />} />
 
-
+                <Route path="/LuxeBanner" element={<LuxeBanner />}></Route>
+                <Route path="/IndyaBanner" element={<IndyaBanner />}></Route>
 
 
             </Routes>

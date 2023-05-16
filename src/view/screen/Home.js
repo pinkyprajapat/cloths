@@ -1,7 +1,7 @@
 import { topimgs, topimgss, topimgsss, about, newimg, banner, cont1, cont2, cont3, bars, team1, img1, team2, team3, hotdiv, hotdivv, tops, } from "../data/data";
 import AwesomeSlider from 'react-awesome-slider';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Row,Carousel} from "react-bootstrap";
+import {Row,Carousel, Container} from "react-bootstrap";
 
 import 'react-awesome-slider/dist/styles.css';
 
@@ -22,8 +22,7 @@ function Home() {
     }
     console.log();
     return (
-
-        <>
+        <div style={{width:1508}}>
 
             {/* <AwesomeSlider className="slideprp">
                 {
@@ -175,7 +174,7 @@ function Home() {
                 }
 
             </div>
-        </>
+        </div>
     )
 }
 export default Home;

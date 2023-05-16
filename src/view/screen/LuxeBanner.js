@@ -1,5 +1,4 @@
-
-// used for faballey banner onclick
+// used for Luxe banner onclick
 
 import { useLocation } from "react-router-dom";
 import { useState } from "react";
@@ -11,20 +10,20 @@ import { Card, Row, Col, nav, d, ListGroup } from "react-bootstrap";
 
 
 // import { Col, Row, Dropdown, Container } from "react-bootstrap";
-export default function Banner() {
+export default function LuxeBanner() {
     const loc = useLocation();
     const [data, setdata] = useState(loc.state.dataa)
     return (
     <div style={{width:1508}}>
-        <h3>banner</h3>
+        <h3>Luxe banner</h3>
         <div className="Banner-div">
             <div className="Banner-leftdiv">
                 <div className="left-div-box">
-                    <h4>SALE</h4>
+                    <h4>LUXE</h4>
                     <div className="ban-leftdiv-line"></div>
                     <div><br /></div>
 
-                    <Dropdown className="d-inline mx-2" autoClose={false}>
+                    {/* <Dropdown className="d-inline mx-2" autoClose={false}>
                         <Dropdown.Toggle id="dropdown-autoclose-false">
                             Clothing
                         </Dropdown.Toggle>
@@ -35,7 +34,7 @@ export default function Banner() {
                             <Dropdown.Item href="#">Dresses</Dropdown.Item>
                             <Dropdown.Item href="#">Bottoms</Dropdown.Item>
                         </Dropdown.Menu>
-                    </Dropdown>
+                    </Dropdown> */}
                     {/* <Row>
                         <Col>
                             <Dropdown>
@@ -54,7 +53,7 @@ export default function Banner() {
                 </div>
             </div>
             <div className="Banner-rightdiv">
-                <h6>Home | sale</h6>
+                <h6>Home | Indya Luxe</h6>
                 <div className="manyform-div">
                     <div className="manyform-div1">
                         {
@@ -81,17 +80,17 @@ export default function Banner() {
                     <div className="banner-Second-rightdiv">
                         <div className="banner-Second-rightdiv1">
                             <div className="banner-Second-rightdiv1A">
-                                <p style={{ position: 'relative', top: 3 }}>SALE</p>
+                                <p style={{ position: 'relative', top: 3 }}>LUXE</p>
                             </div>
                             <div className="banner-Second-rightdiv1B">
-                                <p style={{ position: 'relative', left: 20, top: 3 }}>1088 SYLE FOUND</p>
+                                <p style={{ position: 'relative', left: 20, top: 3 }}>748 SYLE FOUND</p>
                             </div>
                             <div className="banner-Second-rightdiv1C">
                                 <p style={{ position: 'relative', left: 20, top: 3 }}>VIEW 201</p>
                             </div>
                         </div>
                     </div>
-                    <Container>
+                    {/* <Container>
                         <Row>
                             {
                                 vartops.map(function (dv) {
@@ -107,34 +106,34 @@ export default function Banner() {
                                                         <Card.Text>
                                                             {dv.price}
                                                             <br />
-                                                            {dv.SUK}
+                                                            {dv.SUK} */}
                                                             {/* <br></br> */}
                                                             {/* <div className='Bag'>
                                                             <p>ADD TO BAG</p>
                                                         </div> */}
-                                                        </Card.Text>
+                                                        {/* </Card.Text>
                                                     </Card.Body>
-                                                    <ListGroup className="list-group-flush" style={{ alignItems: 'center' }}>
+                                                    <ListGroup className="list-group-flush" style={{ alignItems: 'center' }}> */}
                                                         {/* <div className='Bag2'>
                                                             <p>ADD TO BAG</p>
                                                         </div> */}
-                                                            <Button className="Bag2">ADD TO BAG</Button>
+                                                            {/* <Button className="Bag2">ADD TO BAG</Button> */}
                                                         {/* <ListGroup.Item>Cras justo odio</ListGroup.Item>
                                                     <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
                                                     <ListGroup.Item>Vestibulum at eros</ListGroup.Item> */}
-                                                    </ListGroup>
+                                                    {/* </ListGroup> */}
                                                     {/*<Card.Body>
                                                     <Card.Link href="#">more</Card.Link>
                                                     <Card.Link href="#">shop now</Card.Link>
                                                 </Card.Body> */}
-                                                </Card>
-                                            </div>
+                                                {/* </Card> */}
+                                            {/* </div>
                                         </Col>
                                     )
                                 })
                             }
                         </Row>
-                    </Container>
+                    </Container> */}
                 </div>
             </div>
         </div >
