@@ -1,24 +1,30 @@
 import { useState } from 'react';
-import { useLocation } from 'react-router-dom'
+import { useLocation, useNavigate } from 'react-router-dom'
 import axios from 'axios';
 function Details() {
+const nav =useNavigate()
+
     const loc = useLocation();
     const [pro, setPro,] = useState(loc.state.product)
     const [proo, setProo,] = useState(loc.state.productdata)
+    const [user, setUser,] = useState(localStorage.getItem('user'))
 
     async function addToCart(pro){
 
         let params = {
-            data:pro
+            ...pro,
+            username : user
         }
         
-        let res = await axios.post("addtocart",params)
-        console.log(res.data);
+        let res = await axios.post("addtocart",params).catch(e=>console.log(e));
+        console.log(res?.data);
 
         let {success,message} = res.data
         console.log(success);
         if(success){
             alert(message)
+
+            nav('/addtocart')
         }
         else{
             alert(message)
@@ -72,7 +78,7 @@ function Details() {
                             <p>{pro.SUK}</p>
                             <p>EXPRESS<span style={{color:'grey'}}> | </span>span 3 Day Delivery on orders placed before 2pm</p>
                         </div>
-                        <div className='Bag' onClick={()=>addToCart(pro)}>
+                        <div className='Bag' onClick={()=>addToCart(pro)} style={{cursor:'pointer'}}>
                             <p>ADD TO BAG</p>
                         </div>
                     </div>

@@ -64,6 +64,9 @@ import { useState } from 'react'
 import { Button, Container } from 'react-bootstrap'
 import LuxeBanner from './view/screen/LuxeBanner'
 import IndyaBanner from './view/screen/IndyaBanner'
+import Addtocart from './view/screen/Addtocart'
+import Payment from './view/screen/Payment'
+import Profile from './view/screen/Profile'
 
 
 
@@ -283,6 +286,9 @@ function App() {
                 <Route path="/Seconddiv" element={<Seconddiv />} />
                 <Route path="/Thirddiv" element={<Thirddiv />} />
                 <Route path="/Happy" element={<Happy />} />
+                <Route path="/addtocart" element={<Addtocart />} />
+                <Route path="/payment" element={<Payment />} />
+                <Route path="/profile" element={<Profile />} />
 
                 <Route path="/LuxeBanner" element={<LuxeBanner />}></Route>
                 <Route path="/IndyaBanner" element={<IndyaBanner />}></Route>
