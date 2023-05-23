@@ -64,6 +64,9 @@ import { useState } from 'react'
 import { Button, Container } from 'react-bootstrap'
 import LuxeBanner from './view/screen/LuxeBanner'
 import IndyaBanner from './view/screen/IndyaBanner'
+import Addtocart from './view/screen/Addtocart'
+import Payment from './view/screen/Payment'
+import Profile from './view/screen/Profile'
 
 
 
@@ -183,21 +186,21 @@ function App() {
                             bars.map(function (o) {
                                 return (
                                     <>
-                                        {/* <div className="barslist">
+                                        <div className="barslist">
                                             <ul style={{ listStyle: 'none', padding: '5px', }}>
                                                 <Link to={`/${o.path}`} className='link2'><li>{o.name}</li></Link>
                                             </ul>
-                                        </div> */}
-                                        <div class="dropdown">
+                                        </div>
+                                        {/* <div class="dropdown">
                                             <button class="dropbtn">{o.name}</button>
                                             <div class="dropdown-content">
                                                 <ul>
                                                 <a href="#">{o.name}</a>
                                                 </ul>
                                                 {/* <a href="#">Link 2</a>
-                                                <a href="#">Link 3</a> */}
+                                                <a href="#">Link 3</a> 
                                             </div>
-                                        </div>
+                                        </div> */}
                                     </>
                                 )
                             })
@@ -293,6 +296,9 @@ function App() {
                 <Route path="/Seconddiv" element={<Seconddiv />} />
                 <Route path="/Thirddiv" element={<Thirddiv />} />
                 <Route path="/Happy" element={<Happy />} />
+                <Route path="/addtocart" element={<Addtocart />} />
+                <Route path="/payment" element={<Payment />} />
+                <Route path="/profile" element={<Profile />} />
 
                 <Route path="/LuxeBanner" element={<LuxeBanner />}></Route>
                 <Route path="/IndyaBanner" element={<IndyaBanner />}></Route>
