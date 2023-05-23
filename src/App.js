@@ -83,7 +83,7 @@ function App() {
 
     return (<>
         <BrowserRouter>
-            <div style={{width:1508}}>
+            <div style={{ width: 1508 }}>
                 <div className='menu09'>
                     <Link to="/" className='Link'>Home</Link>
                     {/* <Link to="/About" className='Link'>About</Link>
@@ -183,10 +183,20 @@ function App() {
                             bars.map(function (o) {
                                 return (
                                     <>
-                                        <div className="barslist">
+                                        {/* <div className="barslist">
                                             <ul style={{ listStyle: 'none', padding: '5px', }}>
                                                 <Link to={`/${o.path}`} className='link2'><li>{o.name}</li></Link>
                                             </ul>
+                                        </div> */}
+                                        <div class="dropdown">
+                                            <button class="dropbtn">{o.name}</button>
+                                            <div class="dropdown-content">
+                                                <ul>
+                                                <a href="#">{o.name}</a>
+                                                </ul>
+                                                {/* <a href="#">Link 2</a>
+                                                <a href="#">Link 3</a> */}
+                                            </div>
                                         </div>
                                     </>
                                 )
