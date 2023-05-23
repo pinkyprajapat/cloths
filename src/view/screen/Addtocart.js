@@ -15,9 +15,13 @@ export default function Addtocart(){
         //console.log(res?.data);
         setData(res?.data);
         let p=0
-       /*  res?.data.map(d=>{
-            p+=d.
-        }) */
+       
+        res?.data.map(d=>{
+           p+=d.price
+
+       }) 
+       console.log(p);
+       setPay(p)
     }
         show()
     
@@ -29,9 +33,13 @@ export default function Addtocart(){
         //console.log(res?.data);
         setData(res?.data);
         let p=0
-       /*  res?.data.map(d=>{
-            p+=d.
-        }) */
+       
+         res?.data.map(d=>{
+            p+=d.price
+
+        }) 
+        console.log(p);
+        setPay(p)
     }
 
     async  function removeitem(index) {
